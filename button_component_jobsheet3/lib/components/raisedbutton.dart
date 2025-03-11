@@ -7,11 +7,14 @@ class RaisedButtonDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold((
-      child: ElevatedButton(
-        onPressed: () => showMessage('Raised Button Clicked!'),
-        child: Text('Raised Button'),
+    return Scaffold(
+      appBar: AppBar(title: Text('Raised Button Demo')),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () => showMessage('Raised Button Clicked!'),
+          child: Text('Raised Button'),
+        ),
       ),
-    ));
+    );
   }
 }
