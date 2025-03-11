@@ -9,7 +9,12 @@ class IconButtonDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Icon Button Demo')),
-      body: Center(child: IconButton(icon: Icon(Icons.thumb_up))),
+      body: Center(
+        child: IconButton(
+          icon: Icon(Icons.thumb_up),
+          onPressed: () => showMessage('Icon Button Clicked!'),
+        ),
+      ),
     );
   }
 }
