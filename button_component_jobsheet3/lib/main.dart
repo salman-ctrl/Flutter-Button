@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import './components/flat_button.dart';
-import './components/floating_action_button.dart';
-import './components/icon_button.dart';
-import './components/raisedbutton.dart';
 
 void main() {
   runApp(const MyApp());
