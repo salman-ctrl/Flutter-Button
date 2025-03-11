@@ -12,6 +12,7 @@ class FlatButtonDemo extends StatelessWidget {
               const SnackBar(content: Text('Flat Button Ditekan!')),
             );
           },
+          child: const Text("Tekan Aku"),
         ),
       ),
     );
